@@ -1,0 +1,1 @@
+A Student Management System which manages the data of different students and teachers as well. Frontend is build with the help of HTML, CSS and JAVASCRIPT. For the Backend, php is used and for the database, MySQL is used. In this management system, we can enter a students data or teachers data and edit that data as well.
