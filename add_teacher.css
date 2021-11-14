@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blue;
+}
+header{
+    font-size: 6rem;
+    padding: 10px;
+    text-shadow: 3px 3px red;
+    text-align: center;
+    /* margin-top: 5px; */
+    background-color: rgb(94, 94, 221);
+    color: white;
+    position: relative;
+    /* margin-bottom: 5px; */
+}
+.show{
+    text-align: center;
+    font-size: 1.6rem;
+}
+.main-box{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.sidebar{
+    border: 2px solid red;
+    /* border-right: 4px solid #333; */
+    /* border-top: 4px solid #333; */
+    flex-grow: 0.2;
+    background-color: rgb(161, 146, 146);
+}
+.sidebar .btn-div{
+    display: flex;
+    justify-content: right;
+    border-bottom: 1px solid #333;
+    background-color: rgb(238, 229, 229);
+}
+.sidebar .btn-div button{
+    font-size: 1.6rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.sidebar-div{
+    border-bottom: 5px solid white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 255, 0.753);
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.sidebar-div a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar-div:hover a{
+    color: blue;
+}
+.sidebar-div:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+#open-btn{
+    position: absolute;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    background-color: green;
+    top: 0;
+}
+#open-btn button{
+    background-color: green;
+    border-radius: 10px;
+}
+.main-box-2{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 2px solid brown;
+    background-color: white;
+}
+.main-box-2 h1{
+    color: red;
+    text-shadow: 2px 2px green;
+    font-size: 4rem;
+}
+.main-box-2 form{
+    border: 1px solid red;
+    background-color: yellow;
+    width: 100%;
+}
+.main-box-2 form div{
+    border: 1px solid brown;
+    display: flex;
+    justify-content: space-between;
+}
+.main-box-2 form div label{
+    font-size: 2rem;
+    margin: 2px;
+    /* margin-right: 20px; */
+}
+.main-box-2 form div input{
+    border-radius: 10px;
+    width: 50%;
+}
+.upload-div{
+    background-color: grey;
+}
+.custom-file{
+    background-color: rgb(201, 174, 174);
+}
+.btn{
+    font-size: 2rem;
+    margin: 10px 10px;
+}
+
+
+
+

@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: rgba(255, 255, 0, 0.781); */
+}
+header{
+    font-size: 6rem;
+    padding: 10px;
+    text-shadow: 3px 3px red;
+    text-align: center;
+    /* margin-top: 5px; */
+    background-color: rgb(94, 94, 221);
+    color: white;
+}
+.main-div{
+    border: 4px solid green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: green;
+    box-shadow: 0 0 2px 2px yellow;
+}
+.main-div-1{
+    /* border: 2px solid red; */
+    flex-grow: 1;
+    /* background-color: green; */
+}
+.main-div-1 h1{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px red;
+    /* border: 1px solid pink; */
+}
+.main-div-1 div{
+    /* border: 1px solid brown; */
+    padding: 20px;
+}
+.main-div-1 button{
+    font-size: 2.5rem;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.2s;
+}
+.main-div button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+.main-div-2{
+    border: 2px solid black;
+    background-color: white;
+    flex-grow: 1;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+/* .main-div-2 form{
+    border: 1px solid yellow;
+} */
+.main-div-2 form div{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid blue;
+    padding-bottom: 10px;
+}
+.main-div-2 form label{
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+}
+.main-div-2 form input{
+    font-size: 2rem;
+    margin-right: 10px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* border: none; */
+    /* border-bottom: 3px solid black; */
+}
+.register-btn{
+    border-radius: 50px;
+    margin: 30px;
+    font-size: 3rem !important;
+    transition: 0.2s;
+}
+.register-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+}
+.login-btn{
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 3rem !important;
+    cursor: pointer;
+}
+.login-btn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: crimson;
+}
+.hidden{
+    display: none;
+}
+.input-field{
+    background-color: rgba(0, 255, 255, 0.349);
+}
